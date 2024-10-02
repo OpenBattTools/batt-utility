@@ -14,11 +14,12 @@ except ImportError:
     from strenum import StrEnum
 
 from pathlib import Path
+from typing import Any
 
 # other modules
 import pandas as pd
 from pydantic import BaseModel, ConfigDict, field_validator
-from typing_extensions import Any, Callable, Dict, List, Literal, Optional, Union
+from typing_extensions import Callable, Dict, List, Literal, Optional, Union
 
 
 # Classes

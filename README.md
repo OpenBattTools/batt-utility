@@ -18,6 +18,16 @@
 
 A longer description of your project goes here...
 
+## Disclaimer
+This is a work in progress. The code is not yet fully tested and may contain bugs. Use at your own risk.
+
+### Installation
+```cmd
+pip install batt-utility
+```
+
+## Contributing
+Contributions are welcome and manged with issue tracking and pull requests.
 
 <!-- pyscaffold-notes -->
 

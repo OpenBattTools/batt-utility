@@ -137,6 +137,8 @@ def flatten_dict_one_to_x(dd: Dict[str, List[str]]):
     for key, values in dd.items():
         if len(values) > 1:
             raise ValueError(f"Key '{key}' has more than one value")
+        elif len(values) < 1:
+            continue
         new_dict[key] = values[0]
     return new_dict
 
